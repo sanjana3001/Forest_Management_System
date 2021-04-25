@@ -1,5 +1,13 @@
 package com.cg.fms.dao;
 
-public interface ContractDao {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.cg.fms.dto.Contract;
+
+
+
+public interface ContractDao extends JpaRepository<Contract,String>{
 
 }
+
+
